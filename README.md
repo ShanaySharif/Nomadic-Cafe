@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+## Desription
+The purpose of this app is to enable users to order coffee, including cappuccinos, cold brews (iced/hot), and lattes, from the comfort of their homes. Users can sign up or log in to create a profile, where they can add their favorite caffeinated drinks to their cart
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
