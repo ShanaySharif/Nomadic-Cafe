@@ -17,7 +17,7 @@
 //=========================================
 
 const Header = () => {
-  return <header className="header" id="header">
+  return <header className="header" style={{ backgroundColor:"pink"}}id ="header">
   <nav className="nav container">
     <a href="#home" className="nav__logo">Nomadic<span>.</span>Cafe </a>
 
