@@ -2,13 +2,13 @@ import React from "react";
 import Header from "./Header";
 // import CafeControl from "./CafeControl";
 
-function App(){
+
+
+function App() {
   return ( 
-    <React.Fragment>
-      <Header />
-      {/* <CafeControl /> */}
-    </React.Fragment>
+    <Header />
   );
 }
 
 export default App;
+
