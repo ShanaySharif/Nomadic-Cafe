@@ -2,7 +2,7 @@ import React from "react";
 // // import ticketsImage from "./../img/tickets.png"
 
 const Header = () => {
-  return <header className="header" id="header">
+  return <header className="header" id="header" style= {{backgroundColor: "#000"}}>
   <nav className="nav container">
     <a href="#home" className="nav__logo">Nomadic<span>.</span>co </a>
 
