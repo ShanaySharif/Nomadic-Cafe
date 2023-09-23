@@ -1,8 +1,16 @@
+
+
+
+
 const Coffee = () => {
     return <section
     className="hero section"
     id="home"
-    style={{backgroundImage: "url(./media/bg-hero.jpg)"}}
+    style={{backgroundImage: "url(./Img/shop.jpg)"}}
+
+
+    // "url(./media/bg-hero.jpg)"}}
+    // "./../img/tickets.png"
   >
     <h1 className="hero__title">
       Start Your Day <br />

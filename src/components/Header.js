@@ -1,6 +1,7 @@
 import React from "react";
 // // import ticketsImage from "./../img/tickets.png"
 
+
 const Header = () => {
   return <header className="header" id="header" style= {{backgroundColor: "#000"}}>
   <nav className="nav container">
