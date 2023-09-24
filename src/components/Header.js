@@ -1,4 +1,6 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
 // // import ticketsImage from "./../img/tickets.png"
 
 
@@ -16,8 +18,10 @@ const Header = () => {
           <a href="#Menu" className="nav__link">Menu</a>
         </li>
         <li className="nav__item">
-          <a href="#SignIn" className="nav__link">SignIn</a>
-        </li>
+        <Link to="/sign-in" className="nav__link">
+        Sign In
+        </Link>
+  </li>
         
       </ul>
 

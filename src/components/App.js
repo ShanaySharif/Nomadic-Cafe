@@ -3,7 +3,7 @@ import Header from "./Header";
 import CoffeeControl from "./Coffee";
 import Special from "./Special";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import SignIn from "./SignIn";
+import SignIn from "./SingIn";
 
 
 
@@ -32,7 +32,7 @@ function App() {
       <Routes>
       <Route path="/sign-in" element={<SignIn />} />
 
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Home />} /> */}
         <Route path="/coffee" element={<CoffeeControl />} />
         <Route path="/special" element={<Special />} />
       </Routes>
